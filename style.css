@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk:ital,wght@0,400..700;1,400..700&family=Syne:wght@400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:#ECF6FE;
+    overflow-x: hidden;
+}
+.plus-jakarta-sans {
+    font-family: "Plus Jakarta Sans", serif;
+}
+.source-serif-4 {
+    font-family: "Syne";
+    font-size: 2.917vw;
+    font-weight: 800;
+    line-height: 2.917vw;
+    letter-spacing: -0.04em;
+    text-align: center;
+}
+.header{
+    width: 75vw;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    background-color:rgba(68, 10, 143, 0.06);
+    padding: .833vw 2.52vw;
+    border: 0.13vw solid rgba(68, 10, 143, 0.06);
+    border-radius: 1vw;
+    margin: 1.5vw 12.5vw;
+}
+a{
+    text-decoration: none;
+}
+.part1{
+    display: flex;
+    gap: 2.5vw;
+}
+.header .part1 a{
+    font-size: 1.7vw;
+    font-weight: 400;
+    line-height: 1.6vw;
+    color:#381664;
+}
+.part2 h1{
+    font-size: 4.25vw;
+    font-weight: 700;
+    line-height: 2.88vw;
+    text-align: left;
+    width: 13.86vw;
+    height: Fixed (4.2vw)vw;
+    gap: 0.75rem;
+    color: #381664;
+    padding-left: 8vw;
+}
+.part2{
+    margin-right: 12vw;
+}
+.contact a{
+    font-size: 1.7vw;
+    font-weight: 400;
+    line-height: 1.6vw;
+    color: #381664;
+    padding-left: 16vw;
+}
+
+.text1 h1{
+    font-size: 8vw;
+    line-height: 8vw;
+    padding-top: 7vw ;
+    padding-bottom: 3vw;
+    color: #381664;
+    text-align: center;
+}
+
+.text1 img{
+    padding: 0 3.5vw;
+    width: 92vw;
+    height: 46vw;
+    margin-bottom: 8vw;
+}
+
+.projects{
+    margin: 0 3.333vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 1.7vw;
+    align-items: center;
+}
+
+.projects img{
+    height: auto;
+    width: 100%;
+}
+
+.projects h3{
+    color: #381664;
+    font-family: "Plus Jakarta Sans";
+    font-weight: 400;
+    font-size: 1.33vw;
+    line-height: 1.6vw;
+}
+
+.projects p{
+    color: #381664;
+    font-family: "Plus Jakarta Sans";
+    font-weight: 400;
+    font-size: 1.1vw;
+    line-height: 1.6vw;
+    padding-bottom: 3.3vw;
+}
+.last{
+    display: flex;
+    align-items: center;
+    background: radial-gradient(184.11% 185.17% at 28.27% 7.59%, rgba(236, 246, 254, 0.567) 37.83%, rgba(68, 10, 143, 0.73) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+.last-photo{
+    padding-top: 8vw;
+    width: 55vw;
+    height: auto;
+}
+.last_text{
+    padding-left: 3.333vw;
+    
+}
+.heady{
+    font-family: Syne;
+    font-size: 4.444vw;
+    font-weight: 700;
+    line-height: 4.722vw;
+    letter-spacing: -0.02em;
+    text-align: left;
+    margin-bottom: 2vw;
+}
+.para{
+    font-family: Syne;
+    font-size: 1.67vw;
+    line-height: 2.2vw;
+    margin-bottom: 2vw;
+
+}
+.btn{
+    background-color: #381664;
+    color: white;
+    border-radius: .5vw;
+    font-size: 1.2vw;
+    height: 2.5vw;
+    width: 10vw;
+}
+.contact_bar{
+    padding: 3.333vw 0;
+    gap: 3.333vw;
+    display: flex;
+}
+.contact{
+    width: 45.556vw;
+    height: auto;
+    font-family: Cutive;
+    font-size: 1.944vw;
+    font-weight: 400;
+    line-height: 2.222vw;
+    letter-spacing: -0.01em;
+    text-align: left;
+}
+.t1{
+    font-family: Kumbh Sans;
+    font-size: 1.181vw;
+    font-weight: 500;
+    line-height: 1.944vw;
+    text-align: left;
+}
+.event_foot{
+    padding: 6.667vw 0;
+    gap: 3.333vw;
+}
+.foot_text{
+    font-family: Cutive;
+    font-size: 2.361vw;
+    font-weight: 400;
+    line-height: 2.778vw;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: rgba(29, 34, 27, 1);
+    width: 50vw;
+    margin: 0 21.667vw;
+}
+.email-container{
+    margin-top: 2vw;
+    gap: 0.833vw;
+}
+input{
+    width: 31.042vw;
+    height: 3.333vw;
+    gap: 0.556vw;
+    border-radius: 0.556vw;
+    border: 2px solid rgba(23, 52, 9, 0.16);
+    background-color: rgba(218, 218, 202, 0.4);
+    font-family: Kumbh Sans;
+    font-size: 1.389vw;
+    font-weight: 500;
+    line-height: 1.667vw;
+    text-align: left;
+    color: rgba(29, 34, 27, 0.4);
+    padding-left: 1vw;
+}
+.btn-submit{
+    width: 9.792vw;
+    height: 3.333vw;
+    gap: 0.556vw;
+    padding: 0.833vw 1.667vw;
+    border-radius: 0.556vw;
+    background-color: rgba(32, 79, 10, 1);
+    color: rgba(251, 255, 250, 1);
+    font-family: 'Kumbh Sans';
+    font-size: 1.389vw;
+    font-weight: 600;
+    line-height: 1.667vw;
+    text-align: left;
+    margin-left: 1vw;
+    background-color: #381664;
+}
+.btn-submit:hover{
+    cursor: pointer;
+    background-color: #381664;
+    box-shadow: -5px 5px 4px #000000;
+    border: none;
+}
+.instagram{
+    width: 3.333vw;
+    height: 3.333vw;
+    margin: 0 2vw;
+}
+.facebook{
+    width: 3.333vw;
+    height: 3.333vw;
+}
+.twitter{
+    width: 3.333vw;
+    height: 3.333vw;
+}
+.main1{
+    margin: 0 3.333vw;
+    text-align: center;
+    padding: 6.667vw 0;
+}
+.foot{
+    width: 93.333vw;
+    margin: 0 3.333vw;
+    padding: 6.667vw 0 1.667vw 0;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+.page_link{
+    font-family: Cutive;
+    font-size: 1.944vw;
+    font-weight: 400;
+    line-height: 2.222vw;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: rgba(29, 34, 27, 0.62);
+}
+.btn-contact{
+    width: 15.972vw;
+    height: auto;
+    padding: 0.833vw 1.667vw;
+    border-radius: 8px;
+    border: 2px solid rgba(23, 52, 9, 0.16);
+    font-family: Kumbh Sans;
+    font-size: 1.389vw;
+    font-weight: 600;
+    line-height: 1.667vw;
+    text-align: center;
+    color: white;
+    background-color: #381664;
+}
+.btn-contact:hover{
+    cursor: pointer;
+    background-color: #381664;
+    box-shadow: -5px 5px 4px #000000;
+}
+.i{
+    scale: 50%;
+    padding: 3vw;
+}
+.social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.event_foot{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
